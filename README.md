@@ -11,6 +11,7 @@ Each project includes a full writeup, MITRE ATT&CK mapping where applicable, and
 | [Remote Shell Detection](01-remote-shell-detection/) | Network forensics — Wireshark analysis of a Telnet-based reverse shell | T1595, T1046, T1071.001, T1083, T1210 |
 | [EDR Alert Simulation](02-edr-alert-simulation/) | Endpoint detection — Microsoft Defender for Business EDR validation via EICAR and PowerShell behavioral simulation | T1204.001, T1059.001, T1053.002, T1106, T1057 |
 | [Phishing Header Analysis](03-phishing-header-analysis/) | Email security — header-level analysis of a brand-impersonation phishing attempt | SPF/DKIM/DMARC, sender spoofing |
+| [Azure Arc + AMA Lockout Lab](./azure-arc-ama-lockout-lab/README.md) | Identity/log pipeline — Arc onboarding, AMA deployment, and AD lockout detection testing | T1110, 4625, 4776, 4740 |
 
 ## Background
 
