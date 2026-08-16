@@ -325,13 +325,10 @@ SecurityEvent
 | where array_length(Events) > 1
 ```
 
-- **Conclusion**
-
-> [EDIT ME] Environment lifecycle is itself a SOC-relevant lesson: this
+> Environment lifecycle is itself a SOC-relevant lesson: this
 > lab's Arc-onboarded VM and Log Analytics workspace no longer exist
 > after the Azure license lapsed, so the findings above (Steps 3.1-3.3)
 > are what was actually captured while the environment was live — the
 > queries above are follow-up suggestions only, not run or verified in
 > this environment.
->
-> [EDIT ME — replace with your own closing summary]
+
